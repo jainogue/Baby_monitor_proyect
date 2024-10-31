@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/jaime/esp/v5.2.2/esp-idf/components/**",
+                "/home/jaime/esp32/Baby_monitor_proyect/common/**",
+                "/home/jaime/esp/v5.2.2/esp-idf/components/esp_netif/linux/stubs/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

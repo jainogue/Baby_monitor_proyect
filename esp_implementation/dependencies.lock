@@ -1,0 +1,31 @@
+dependencies:
+  espressif/esp-dsp:
+    dependencies: []
+    source:
+      path: /home/jaime/esp32/Baby_monitor_proyect/common/esp-skainet-extra-components/espressif__esp-dsp
+      type: local
+    version: 1.4.12
+  espressif/esp-sr:
+    dependencies: []
+    source:
+      path: /home/jaime/esp32/Baby_monitor_proyect/common/esp-skainet-extra-components/espressif__esp-sr
+      type: local
+    version: 1.7.1
+  espressif/esp_codec_dev:
+    dependencies: []
+    source:
+      path: /home/jaime/esp32/Baby_monitor_proyect/common/esp-skainet-extra-components/espressif__esp_codec_dev
+      type: local
+    version: 1.0.3
+  idf:
+    source:
+      type: idf
+    version: 5.2.2
+direct_dependencies:
+- espressif/esp-dsp
+- espressif/esp-sr
+- espressif/esp_codec_dev
+- idf
+manifest_hash: 93f1c9b0ecc92ea44934e94eca354dcb4ee74edacc7c65822c61505c51026cf5
+target: esp32s3
+version: 2.0.0
